@@ -6,14 +6,9 @@ def greet():
     # fetch previous date
     previous_date = database.get_last_seen()
 
-
     # fetch today's date and store it to database
     today_date = get_date()
     database.update_last_seen(today_date)
-
-
-    # if previous_date == today_date:
-    #     output("Welcome back")
 
     hour = int(get_hours())
 
