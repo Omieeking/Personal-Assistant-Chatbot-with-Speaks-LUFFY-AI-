@@ -1,0 +1,1 @@
+apikey = "ENTER YOU OPENAI API KEY"
