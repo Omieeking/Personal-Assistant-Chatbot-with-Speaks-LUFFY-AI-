@@ -196,7 +196,7 @@ def process(query):
         elif answer == "today weather":
 
             # Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
-            api_key = "Enter your openweathermap api key"
+            api_key = "70c1b80485611759d1f37a9b31e3a5a1"
 
             # Get user input for the city
             city_name = st.text_input('Enter the city for weather information: ')
